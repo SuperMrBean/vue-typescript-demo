@@ -1,0 +1,50 @@
+{
+  "name": "vue-ts-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prod": "node browser-sync.config.js",
+    "theme-init": "et -i",
+    "theme-build": "et"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.5.4",
+    "vue": "^2.5.22",
+    "vue-property-decorator": "^7.3.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-typescript": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-plugin-import": "^1.11.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.5.4",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "less-plugin-functions": "^1.0.0",
+    "style-resources-loader": "^1.2.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.0.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "Firefox >= 20"
+  ]
+}
